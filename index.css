@@ -1,0 +1,184 @@
+a {
+	text-decoration: none;
+}
+
+u {
+	text-decoration: none;
+}
+
+strong {
+	font-weight: normal;
+}
+
+header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#logo {
+	margin: 30px;
+}
+
+#search-form {
+	border: solid black 1px;
+	border-radius: 5px;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+}
+
+#search {
+	border: none;
+	margin-left: 20px;
+}
+
+#shipping-div {
+	color: #d73a2c;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-style: italic;
+}
+
+#shipping-div em {
+	font-size: 20px;
+}
+
+#bag-div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#bag-div p {
+	color: #b3b3c1;
+	text-transform: uppercase;
+	margin: 20px;
+	font-weight: bold;
+}
+
+#bag-div p span {
+	color: #d73a1e;
+}
+
+#nav-div {
+	width: 100vw;
+	flex-basis: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #523468;
+	padding: 25px 0;
+	color: white;
+	font-style: italic;
+}
+
+#nav-div a{
+	color: white;
+}
+
+#main-nav a{
+	padding: 15px;
+	border-radius: 5px;
+}
+
+#clearance {
+	background-color: #422a53;
+}
+
+#sign-nav u {
+	color: #ac92c2;
+}
+
+footer {
+	background-color: #e6e6e6;
+	padding: 30px;
+}
+
+#map-nav {
+	width: 40%;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin: 10px;
+}
+
+#map-nav a {
+	color: #d73a2c;
+	margin: 20px;
+}
+
+#social-nav {
+	margin: 30px 10px;
+}
+
+#social-nav a {
+	margin: 20px;
+}
+
+#letter-section {
+	float: right;
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	border-radius: 5px;
+}
+
+#letter-section h4 {
+	margin: 0;
+	padding: 0;
+	font-style: italic;
+	font-weight: normal;
+}
+
+#letter-section form {
+	display: flex;
+	justify-content: space-between;
+}
+
+#letter-section form input {
+	flex-grow: 1;
+	margin-right: 10px;
+	padding: 10px;
+}
+
+#letter-email {
+	border: solid black 1px;
+	border-radius: 5px;
+}
+
+#letter-submit {
+	background-color: #d73a2c;
+	color: white;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 5px;
+}
+
+#copy-p {
+	color: #72666e;
+	padding: 0px 25px;
+}
+
+h3 {
+	margin: 50px;
+}
+
+#product-ul {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#product-ul li {
+	flex-basis: auto;
+	width: 30%;
+	padding: 20px;
+}
+
+#product-ul li img {
+	width: 100%;
+}
