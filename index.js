@@ -3,7 +3,7 @@ window.addEventListener('load', function () {
 	var http = new XMLHttpRequest();
 	http.overrideMimeType('application/json');
 	http.onreadystatechange = function () {
-		console.log('readysatechange');
+		console.log(http.status);
 		if (http.readyState === 4 && http.status === '200') {
 			console.log('status 200');
 			var products = JSON.parse(http.responseText);
