@@ -5,7 +5,6 @@ window.addEventListener('load', function () {
 	http.onreadystatechange = function () {
 		console.log(http.status);
 		if (http.readyState === 4 && http.status === '200') {
-			console.log('status 200');
 			var products = JSON.parse(http.responseText);
 			var ul = document.getElementById('product-ul');
 			products.potions.forEach(function (potion) {
