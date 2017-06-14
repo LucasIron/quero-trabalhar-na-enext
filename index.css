@@ -10,6 +10,10 @@ strong {
 	font-weight: normal;
 }
 
+#bag-div p, #map-nav, #letter-section{
+	font-family: 'Droid Sans', sans-serif
+}
+
 header {
 	display: flex;
 	justify-content: space-around;
@@ -73,6 +77,10 @@ header {
 	padding: 25px 0;
 	color: white;
 	font-style: italic;
+}
+
+#main-nav a span {
+	font-style: normal;
 }
 
 #nav-div a{
@@ -169,16 +177,29 @@ h3 {
 #product-ul {
 	display: flex;
 	justify-content: space-around;
-	align-items: center;
 	flex-wrap: wrap;
 }
 
 #product-ul li {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 	flex-basis: auto;
-	width: 30%;
+	width: 20%;
 	padding: 20px;
+	list-style: none;
 }
 
 #product-ul li img {
 	width: 100%;
+}
+
+#product-ul li p {
+	font-weight: bold;
+}
+
+#product-ul li span {
+	color: #d73a2c;
 }
